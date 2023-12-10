@@ -4,7 +4,7 @@ async function getData() {
 
     //if input text is empty, alert
     if (document.getElementById("userName").value.trim() == "") {
-        alert("Please enter Name!");
+        alert("Please enter a username!");
         return false;
     }
 
