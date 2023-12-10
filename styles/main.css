@@ -311,5 +311,83 @@ footer {
         margin: 0 auto;
         max-width: 950px;
     }
+}
 
+/*Final Project CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&display=swap');
+
+#project{
+    margin-bottom: 100px;
+}
+
+#appName{
+    text-align: left;
+    font-family: 'Mina', sans-serif;
+    margin: 20px;
+    color:#01497c;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 16px 32px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Afacad', sans-serif;
+    font-size: large;
+}
+      
+input[type=text]:focus {
+    background-color: #b8e0d2;
+}
+
+#buttonUser{
+    background-color: #95b8d1;
+    border: none;
+    color: #01497c;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Afacad', sans-serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 10px;     
+}
+          
+#buttonUser:hover {
+    background-color: #809bce;
+    color: white; 
+}
+
+#userData{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin: auto;
+    font-family: 'Afacad', sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#userImg{
+    width:100%;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#userN{
+    margin-top: 0;
 }
